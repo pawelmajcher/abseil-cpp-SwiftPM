@@ -25,9 +25,7 @@ let package = Package(
         "absl/random/internal/gaussian_distribution_gentables.cc",
         "absl/random/internal/randen_benchmarks.cc",
         // tests
-        "absl/log/scoped_mock_log.cc",
         "absl/log/internal/test_helpers.cc",
-        "absl/log/internal/test_matchers.cc",
         "absl/base/spinlock_test_common.cc",
         "absl/base/internal/exception_safety_testing.cc",
         "absl/random/benchmarks.cc",
@@ -35,8 +33,6 @@ let package = Package(
         "absl/time/internal/get_current_time_posix.inc",
         "absl/numeric/int128_have_intrinsic.inc",
         "absl/numeric/int128_no_intrinsic.inc",
-        "absl/log/log_basic_test_impl.inc",
-        "absl/log/check_test_impl.inc",
         "absl/flags/flag_benchmark.lds",
         "absl/debugging/symbolize_darwin.inc",
         "absl/debugging/symbolize_elf.inc",
