@@ -26,6 +26,7 @@ let package = Package(
         "absl/random/internal/randen_benchmarks.cc",
         // tests
         "absl/log/scoped_mock_log.cc",
+        "absl/log/scoped_mock_log.h",
         "absl/log/internal/test_helpers.cc",
         "absl/log/internal/test_matchers.cc",
         "absl/base/spinlock_test_common.cc",
