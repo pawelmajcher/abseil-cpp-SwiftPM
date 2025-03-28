@@ -25,7 +25,6 @@ let package = Package(
         "absl/random/internal/gaussian_distribution_gentables.cc",
         "absl/random/internal/randen_benchmarks.cc",
         // tests
-        "absl/log/internal/test_helpers.cc",
         "absl/base/spinlock_test_common.cc",
         "absl/base/internal/exception_safety_testing.cc",
         "absl/random/benchmarks.cc",
