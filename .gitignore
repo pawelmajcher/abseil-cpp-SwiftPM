@@ -4,6 +4,7 @@
 --verbose_explanations
 # Ignore CMake usual build directory
 build
+.build
 # Ignore Vim files
 *.swp
 # Ignore QtCreator Project file
@@ -15,3 +16,4 @@ CMakeLists.txt.user
 copts/__pycache__/
 # SwiftPM build directory
 .swiftpm/
+MODULE.bazel.lock
